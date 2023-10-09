@@ -56,7 +56,6 @@ input[type="date"] {
     border-radius: 5px;
     outline: none;
     width: 500px;
-    /* Reduzindo a largura das caixas de texto */
 }
 
 button {
