@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Controle de Estoque</title>
+</head>
+
+<body>
+        <header>
+            <h1>Controle de Estoque</h1>
+        </header>
+
+        <main>
+            <div id="formulario">
+                <h2>Adicionar Produto</h2>
+                <form id="estoque-form">
+                    <label for="produto">Nome do Produto</label>
+                    <input type="text" id="produto" required>
+                    <label for="descricao">Descrição do Produto</label>
+                    <input type="text" id="descricao" required>
+                    <label for="marca">Marca</label>
+                    <input type="text" id="marca" required>
+                    <label for="quantidade">Quantidade em Estoque</label>
+                    <input type="number" id="quantidade" required>
+                    <label for="data-compra">Data da Última Compra</label>
+                    <input type="date" id="data-compra" required>
+                    <button type="submit">Adicionar</button>
+                </form>
+            </div>
+
+            <div id="lista-produtos">
+                <h2>Lista de Produtos</h2>
+                <ul id="estoque-lista"></ul>
+        </main>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
