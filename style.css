@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100vw;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    width: 100vw;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 15px;
+    color: #3498db;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 500px;
+    /* Reduzindo a largura das caixas de texto */
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+button:hover {
+    background-color: #2088ce;
+    scale: 1.05;
+}
+
+ul {
+    width: 600px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    border: 1px solid #3d3c3c;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+li:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+    scale: 1.01;
+}
